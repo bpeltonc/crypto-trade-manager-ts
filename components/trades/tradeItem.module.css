@@ -1,0 +1,42 @@
+.item {
+  margin: 0.5rem 0rem;
+  max-width: 45vw;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 18vh;
+}
+
+.content {
+  text-align: center;
+  padding: 1rem;
+  color: #7b89b7;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #7b89b7;
+}
+
+.actions {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #0d7ae7;
+  border: 1px solid #0d7ae7;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe2ed;
+}

@@ -1,0 +1,38 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #060f0a;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #0d7ae7;
+  font-weight: bold;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #7b89b7;
+}
+
+.header a:hover,
+.header a:active,
+.header a:active {
+  color: #ede9d4;
+}
