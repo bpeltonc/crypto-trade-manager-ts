@@ -1,13 +1,27 @@
 .item {
   margin: 0.5rem 0rem;
-  max-width: 45vw;
+  width: 45vw;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   height: 18vh;
+}
+
+.heading {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.mainContent {
+  display: flex;
+
 }
 
 .content {

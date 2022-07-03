@@ -35,7 +35,7 @@ function TradeList({ trades }: Props) {
     <Fragment>
       <ul className={classes.list}>
         {currentItems?.map((trade) => (
-          <TradeItem key={trade._id} trade={trade} />
+          <TradeItem key={trade._id.toString()} trade={trade} />
         ))}
       </ul>
       <ReactPaginate

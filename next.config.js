@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
+  images: {
+    domains: ['cryptoicons.org']
+  },
   reactStrictMode: true,
 }
-
-module.exports = nextConfig

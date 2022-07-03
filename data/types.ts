@@ -1,6 +1,7 @@
 export interface Trade {
-    _id: number;
+    _id: string;
     symbol: string;
+    logo: string;
     type: string;
     entryPrice: number;
     comment: string;
