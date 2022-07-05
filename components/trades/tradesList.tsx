@@ -5,6 +5,10 @@ import classes from "./tradesList.module.css";
 
 import { LiveTrade } from "../../data/types";
 
+type PageView = {
+  selected: number;
+};
+
 type Props = {
   trades?: LiveTrade[];
 };
@@ -24,7 +28,7 @@ function TradeList({ trades }: Props) {
     }
   }, [itemOffset, itemsPerPage, trades]);
 
-  const handlePageClick = (event) => {
+  const handlePageClick = (event: PageView) => {
     if (trades) {
       const newOffset = (event.selected * itemsPerPage) % trades.length;
       setItemOffset(newOffset);
